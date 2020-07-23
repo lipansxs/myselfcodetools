@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<config>
+
+    <!--
+        xml文件中一些符号表示：
+                &: &amp;
+                <: &lt;
+                >: &gt;
+    文件路径：
+        file-path: 用来表示需要操作的文件的路径（因为文件可能有多个所以可能时路径）
+    重命名标签：
+        rename-by-regex，正则表达式需要有两个命名分组,name与suffix，文件名修改后格式为：第一组匹配 + 第二组匹配
+    删除文件标签：
+        delete-by-name ： 通过文件名来删除文件
+            name:需要删除的文件的名字，可能有多个电视剧名
+        delete-by-suffix: 通过文件后缀来删除文件
+            suffix：需要删除的文件的后缀，可能有多重文件后缀
+    -->
+
+<!--    <rename-by-regex>(\d\d*).*?(\..*)</rename-by-regex>-->
+    <file-path>G:\电视剧</file-path>
+    <delete-by-name>
+        <name>05</name>
+        <name>06</name>
+        <name>ghi</name>
+        <name>jkl</name>
+    </delete-by-name>
+
+    <delete-by-suffix>
+
+        <suffix>txt</suffix>
+    </delete-by-suffix>
+
+    <rename-by-regex>(?&lt;name&gt;\d\d*).*?\.(?&lt;suffix&gt;.*)$</rename-by-regex>
+
+
+</config>
