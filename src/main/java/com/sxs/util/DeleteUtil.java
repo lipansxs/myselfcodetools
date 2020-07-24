@@ -2,8 +2,8 @@ package com.sxs.util;
 
 import com.sxs.config.Config;
 import com.sxs.stratege.DelStratege;
-import com.sxs.strategeimpl.DelByNameStrategeImpl;
-import com.sxs.strategeimpl.DelBySuffixStrategeImpl;
+import com.sxs.strategeimpl.deleteStrageImpl.DelByNameStrategeImpl;
+import com.sxs.strategeimpl.deleteStrageImpl.DelBySuffixStrategeImpl;
 import org.apache.log4j.Logger;
 
 import java.io.File;

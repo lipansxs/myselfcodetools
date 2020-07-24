@@ -1,4 +1,4 @@
-package com.sxs.strategeimpl;
+package com.sxs.strategeimpl.deleteStrageImpl;
 
 import com.sxs.config.Config;
 import com.sxs.stratege.DelStratege;

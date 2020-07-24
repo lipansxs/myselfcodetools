@@ -2,7 +2,7 @@ package com.sxs.util;
 
 import com.sxs.config.Config;
 import com.sxs.stratege.ReNameStratege;
-import com.sxs.strategeimpl.ReNameByRegexStrategeImpl;
+import com.sxs.strategeimpl.reNameStrageImpl.ReNameByRegexStrategeImpl;
 import org.apache.log4j.Logger;
 
 import java.io.File;
