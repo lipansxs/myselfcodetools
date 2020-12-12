@@ -36,7 +36,7 @@ public class ReNameByRegexStrategeImpl implements ReNameStratege {
      */
     private Config config = Config.getConfig();
 
-    public ReNameByRegexStrategeImpl(){
+    public ReNameByRegexStrategeImpl() {
         this.matcher = Pattern.compile(config.getFile().getRename().get("regex")).matcher("");
         this.successMatcher = Pattern.compile(config.getFile().getRename().get("success.regex")).matcher("");
     }
@@ -58,25 +58,25 @@ public class ReNameByRegexStrategeImpl implements ReNameStratege {
         // 如果已经修改过了，就不在修改了
         if (this.successMatcher.find()) {
             logger.info(file.getName() + "已经修改成功了！");
-        }else if (this.matcher.find()) {
+        } else if (this.matcher.find()) {
             // 如果能够匹配，就获取到匹配的字符串
             // 获取电视剧的集数，如果集数字符串长度为1位，就再前面加一个0
             if (this.matcher.groupCount() == 2) {
                 String matchStr = this.matcher.group("name"); // 获取集数即文件名
                 suffix = this.matcher.group("suffix"); // 获取视频文件的后缀
                 // 匹配电视剧的集数
-                fileName = matchStr.length() < 2? "0" + matchStr:matchStr;
+                fileName = matchStr.length() < 2 ? "0" + matchStr : matchStr;
 
-                result = file.renameTo(new File(file.getParent() + "/" + fileName + "." +  suffix));
+                result = file.renameTo(new File(file.getParent() + "/" + fileName + "." + suffix));
 
                 if (result) {
-                    logger.info(file.getName() + "修改为 ->" + fileName + "." +  suffix + "成功！");
-                }else{
-                    logger.info(file.getName() + "修改为 ->" + fileName + "." +  suffix + "失败！");
+                    logger.info(file.getName() + "修改为 ->" + fileName + "." + suffix + "成功！");
+                } else {
+                    logger.info(file.getName() + "修改为 ->" + fileName + "." + suffix + "失败！");
                 }
 
             }
-        }else{
+        } else {
             logger.error("修改文件名失败，正则表达式匹配失败：" + file.getName());
         }
         return result;

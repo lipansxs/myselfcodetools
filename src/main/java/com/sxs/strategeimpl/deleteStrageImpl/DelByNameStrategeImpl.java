@@ -32,7 +32,7 @@ public class DelByNameStrategeImpl implements DelStratege {
 
         StringBuilder sb = new StringBuilder();
         // 获取所有的电视名标签
-        for (String name: config.getFile().getDelete().get("names")){
+        for (String name : config.getFile().getDelete().get("names")) {
 
             // 构建正则表达式
             sb.append(name.strip() + "|");

@@ -8,6 +8,7 @@ public interface DelStratege {
 
     /**
      * 删除文件
+     *
      * @param file 需要删除的文件
      * @return 删除成功返回true 失败返回false
      */

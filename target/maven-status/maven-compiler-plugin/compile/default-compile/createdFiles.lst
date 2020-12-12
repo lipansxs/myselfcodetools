@@ -1,0 +1,10 @@
+com\sxs\stratege\ReNameStratege.class
+com\sxs\config\Config.class
+com\sxs\pojo\OptionFileBean.class
+com\sxs\strategeimpl\deleteStrageImpl\DelByNameStrategeImpl.class
+com\sxs\stratege\DelStratege.class
+com\sxs\strategeimpl\reNameStrageImpl\ReNameByRegexStrategeImpl.class
+com\sxs\strategeimpl\deleteStrageImpl\DelBySuffixStrategeImpl.class
+com\sxs\main\Main.class
+com\sxs\util\DeleteUtil.class
+com\sxs\util\ReNameUtil.class

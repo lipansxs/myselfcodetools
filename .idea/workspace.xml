@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a77e050a-8314-49a4-a5e4-20da419e9776" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fileConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sxs/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sxs/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sxs/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sxs/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sxs/stratege/DelStratege.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sxs/stratege/DelStratege.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sxs/stratege/ReNameStratege.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sxs/stratege/ReNameStratege.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sxs/strategeimpl/deleteStrageImpl/DelByNameStrategeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sxs/strategeimpl/deleteStrageImpl/DelByNameStrategeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sxs/strategeimpl/deleteStrageImpl/DelBySuffixStrategeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sxs/strategeimpl/deleteStrageImpl/DelBySuffixStrategeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sxs/strategeimpl/reNameStrageImpl/ReNameByRegexStrategeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sxs/strategeimpl/reNameStrageImpl/ReNameByRegexStrategeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sxs/util/DeleteUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sxs/util/DeleteUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sxs/util/ReNameUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sxs/util/ReNameUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fileConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/META-INF/metadata.json" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -70,12 +87,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDemo1.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDemo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selftools" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestDemo1" />
-      <option name="METHOD_NAME" value="test5" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,10 +129,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TestDemo1" />
         <item itemvalue="JUnit.TestDemo1.test8" />
         <item itemvalue="JUnit.TestDemo1.test7" />
         <item itemvalue="JUnit.TestDemo1.test6" />
-        <item itemvalue="JUnit.TestDemo1.test5" />
       </list>
     </recent_temporary>
   </component>
@@ -133,6 +149,17 @@
       <workItem from="1595419376546" duration="5263000" />
       <workItem from="1595469045455" duration="5246000" />
       <workItem from="1595475079706" duration="13452000" />
+      <workItem from="1595562176628" duration="1991000" />
+      <workItem from="1595564964008" duration="201000" />
+      <workItem from="1595565180078" duration="764000" />
+      <workItem from="1597224638462" duration="210000" />
+      <workItem from="1597481122832" duration="540000" />
+      <workItem from="1597481689787" duration="866000" />
+      <workItem from="1597717700278" duration="642000" />
+      <workItem from="1597749722956" duration="383000" />
+      <workItem from="1598173652997" duration="296000" />
+      <workItem from="1598226806230" duration="2554000" />
+      <workItem from="1598250579566" duration="312000" />
     </task>
     <servers />
   </component>
@@ -152,30 +179,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1595475508884" />
-    <state x="542" y="167" key="FileChooserDialogImpl" timestamp="1595475487679">
+    <state x="542" y="167" key="FileChooserDialogImpl" timestamp="1598250889781">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="542" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595475487679" />
-    <state width="1495" height="184" key="GridCell.Tab.0.bottom" timestamp="1595490056697">
+    <state x="542" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598250889781" />
+    <state width="1493" height="59" key="GridCell.Tab.0.bottom" timestamp="1598173950566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1495" height="184" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595490056697" />
-    <state width="1495" height="184" key="GridCell.Tab.0.center" timestamp="1595490056697">
+    <state width="1493" height="59" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598173950566" />
+    <state width="1493" height="59" key="GridCell.Tab.0.center" timestamp="1598173950566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1495" height="184" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595490056697" />
-    <state width="1495" height="184" key="GridCell.Tab.0.left" timestamp="1595490056697">
+    <state width="1493" height="59" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598173950566" />
+    <state width="1493" height="59" key="GridCell.Tab.0.left" timestamp="1598173950565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1495" height="184" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595490056697" />
-    <state width="1495" height="184" key="GridCell.Tab.0.right" timestamp="1595490056697">
+    <state width="1493" height="59" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598173950565" />
+    <state width="1493" height="59" key="GridCell.Tab.0.right" timestamp="1598173950566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1495" height="184" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595490056697" />
-    <state x="300" y="55" width="1109" height="714" key="SettingsEditor" timestamp="1595475125990">
+    <state width="1493" height="59" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598173950566" />
+    <state x="333" y="111" key="NewModule_or_Project.wizard" timestamp="1598250891831">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="300" y="55" width="1109" height="714" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595475125990" />
+    <state x="333" y="111" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1598250891831" />
+    <state x="300" y="55" width="1109" height="714" key="SettingsEditor" timestamp="1598250879056">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="300" y="55" width="1109" height="714" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598250879056" />
+    <state x="2" y="24" key="new project wizard" timestamp="1597224846626">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="2" y="24" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1597224846626" />
     <state x="361" y="71" key="scopes" timestamp="1595474721994">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

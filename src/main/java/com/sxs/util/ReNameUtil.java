@@ -24,10 +24,11 @@ public class ReNameUtil {
 
     /**
      * 通过传入不同的重命名策略来重命名文件
+     *
      * @param reNameStratege 重命名文件的策略
-     * @param root 需要修改的文件的文件夹根目录
+     * @param root           需要修改的文件的文件夹根目录
      */
-    public static void reName(ReNameStratege reNameStratege, File root){
+    public static void reName(ReNameStratege reNameStratege, File root) {
         File file = root;
 
 
@@ -45,7 +46,7 @@ public class ReNameUtil {
 
     }
 
-    public static void reNameByRegex(){
+    public static void reNameByRegex() {
         reName(new ReNameByRegexStrategeImpl(), new File(config.getFile().getPath()));
     }
 }

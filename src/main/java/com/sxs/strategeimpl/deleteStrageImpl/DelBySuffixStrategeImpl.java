@@ -47,7 +47,7 @@ public class DelBySuffixStrategeImpl implements DelStratege {
         StringBuilder sb = new StringBuilder();
         // 获取所有的电视名标签
 //        for (Element ele: XMLUtil.getEleByTagName("delete-by-suffix").elements("suffix")){
-        for(String suffix: config.getFile().getDelete().get("suffixs")) {
+        for (String suffix : config.getFile().getDelete().get("suffixs")) {
             // 构建正则表达式
             sb.append(suffix.strip() + "|");
         }
@@ -80,10 +80,11 @@ public class DelBySuffixStrategeImpl implements DelStratege {
 
     /**
      * 获取文件名的后缀
+     *
      * @param fileName
      * @return
      */
-    private String getFileSuffix(String fileName){
+    private String getFileSuffix(String fileName) {
 
         this.matcherFileSuffix = pattern.compile("^.*?\\.(.*)$").matcher(fileName);
 

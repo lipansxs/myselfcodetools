@@ -18,7 +18,7 @@ import java.io.IOException;
 public class Config {
     private OptionFileBean file;
 
-    public static Config getConfig()  {
+    public static Config getConfig() {
         Yaml yaml = new Yaml(new Constructor(Config.class));
         Config config = null;
         try {

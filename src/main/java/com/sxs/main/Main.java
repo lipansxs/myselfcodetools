@@ -28,7 +28,7 @@ public class Main {
                 DeleteUtil.delByName();
             }
 
-            if (config.getFile().getDelete().get("suffixs") != null){
+            if (config.getFile().getDelete().get("suffixs") != null) {
                 log.info("开始通过后缀删除文件！！！");
                 DeleteUtil.delBySuffix();
             }
